@@ -56,6 +56,7 @@ Socket programming finds applications in various domains, including web developm
 ## Algorithm:
 
 server.py
+~~~
 import socket
 
 # Create socket
@@ -85,8 +86,9 @@ conn.send(message.encode())
 # Close connection
 conn.close()
 server_socket.close()
-
+~~~
 client.py
+~~~
 
 import socket
 
@@ -108,7 +110,7 @@ print("Server says:", data)
 
 # Close socket
 client_socket.close()
-
+~~~
 ### Output:
 <img width="1919" height="1024" alt="Screenshot 2026-04-29 104750" src="https://github.com/user-attachments/assets/c27894be-8315-4d2b-92a4-a38e0ef5ebc6" />
 
